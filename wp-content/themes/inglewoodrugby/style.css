@@ -1,0 +1,394 @@
+/*
+ Theme Name:   Inglewood United Rugby Football Club
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       A-Z Web Solutions Ltd
+ Author URI:   http://www.azwebsolutions.co.nz
+ Template:     understrap
+ Version:      0.3.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0F1E45;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0F1E45;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 15px;
+}
+.wrapper {
+    overflow: hidden;
+}
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: #682B32;
+    border-color: #682B32;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+    background-color: #682B32;
+    border-color: #682B32;
+}
+.home h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.home h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.home .wpb_content_element {
+    margin-bottom: 0;
+}
+#top {
+    background-color: #1d1a15;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#top .top-menu-wrapper {
+    text-align: right;
+}
+#top ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+#top ul li:last-child {
+    margin-right: 0;
+}
+#top ul li a {
+    color: #ffffff;
+}
+#top a {
+    color: #ffffff;
+}
+#top span {
+    margin-right: 5px;
+}
+#header {
+    background-color: #682B32;
+    height: 80px;
+    position: relative;
+    z-index: 2;
+}
+#icc-menu-wrapper {
+    text-align: center;
+    height: 80px;
+    border-bottom: 5px solid #ffffff;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.custom-logo-link {
+    margin: 0;
+    padding: 0;
+}
+.mega-menu-logo {
+    position: relative;
+    top: -42px;
+}
+.banner-wrapper {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    background-color: #0F1E45;
+    margin-bottom: 20px;
+}
+.banner-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.banner-wrapper .banner-text-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    padding: 120px 0;
+    background-color: rgba(255,255,255,0.2);
+    background-position: 0, 0;
+    background-size: 100%;
+}
+.banner-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.banner-wrapper .slogan {
+    font-family: 'Rock Salt', cursive;
+    font-size: 60px;
+    line-height: 70px;
+    color: #e4e4e4;
+}
+.facebook-feed-wrapper {
+    position: relative;
+    z-index: 2;
+    top: -90px;
+}
+.facebook-feed-wrapper .wpb_single_image {
+    margin-bottom: 5px;
+}
+#cff p, #cff span {
+    font-size: 14px;
+}
+#cff.cff-fixed-height{
+    padding: 0;
+}
+.cff-wrapper {
+    margin-bottom: 15px !important;
+}
+.title {
+    background-color: #0F1E45;
+    padding: 10px 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.our-history-btn-wrapper {
+    margin-top: 35px;
+}
+.our-people-wrapper {
+    margin-top: 50px;
+}
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section.grey {
+    background-color: #eeeeee;
+}
+.section.maroon {
+    background-color: #682B32;
+}
+.person-wrapper .inner-wrapper {
+    display: flex;
+    flex-flow: row;
+    background-color: #eeeeee;
+}
+.person-wrapper .flex-item {
+    position: relative;
+}
+.person-wrapper .flex-item:first-child {
+    flex: 1.5 0 0;
+}
+.person-wrapper .flex-item:last-child {
+    flex: 2 0 0;
+    padding: 15px;
+}
+.slick-dots li button::before {
+    font-size: 10px;
+}
+.club-records-wrapper {
+    text-align: center;
+}
+.media-panel .wpb_text_column {
+    background-color: #0F1E45;
+    text-align: center;
+    padding: 5px 0;
+}
+.media-panel .wpb_text_column a {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+}
+.contact-cta-wrapper {
+    height: 400px;
+    position: relative;
+    background-color: #000000;
+}
+.contact-cta-wrapper img {
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    width: 100%;
+    height: auto;
+}
+.contact-cta-wrapper .banner-text-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+}
+.contact-cta-wrapper p {
+    font-family: 'Rock Salt', cursive;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.nopadding {
+    padding: 0 !important;
+}
+.sponsors-section {
+    text-align: center;
+    padding-top: 80px;
+}
+.sponsors-section h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.sponsors {
+    margin-top: 20px;
+}
+.slick-prev {
+    left: -25px;
+    z-index: 1;
+}
+.slick-next {
+    right: -25px;
+    z-index: 1;
+}
+.slick-prev::before, .slick-next::before {
+    color: #000000;
+}
+.sponsors .slick-slide img {
+    max-width: 90%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sponsors.slick-initialized .slick-slide {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sponsors .slick-slide {
+    width: 20% !important;
+}
+.sponsors i {
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    z-index: 99;
+    cursor: pointer;
+}
+.sponsors i.fa-angle-left {
+    left: 5px;
+}
+.sponsors i.fa-angle-right {
+    right: 5px;
+}
+.sponsor-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sponsor-wrapper.gold h3 {
+    color: #CD7F32;
+}
+.sponsor-wrapper.silver {
+    background-color: #EEEEEE;
+}
+.sponsor-wrapper.silver h3 {
+    color: #666666;
+}
+.sponsor-wrapper.bronze h3 {
+    color: #F7941D;
+}
+.google-map iframe {
+    width: 100%;
+}
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1d1a15;
+}
+#copyright a {
+    color: #ff7f00;
+}
