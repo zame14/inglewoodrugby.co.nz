@@ -26,9 +26,8 @@ function homeBanner($atts) {
     $html = '
     <div class="banner-wrapper">
         <img src="' . $bannerImage . '" alt="Inglewood United Rugby Football Club" />
-        <div class="banner-text-wrapper" style="background-image:url(' . $bannerImage . ')">
+        <div class="banner-text-wrapper">
             <h1>' . get_bloginfo('name') . '</h1>
-            <div class="slogan">' . get_option('slogan') . '</div>
         </div>
     </div>';
 
